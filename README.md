@@ -100,3 +100,13 @@ python -m unittest discover -s tests -q    # 全量测试
 ## License
 
 MIT © 2025 ox-alpha
+
+## Quickstart
+
+1. `git clone https://github.com/qianbrady/jsonlcensus`
+2. `pip install -e .`
+3. Run `python -m jsonlcensus --help` - full usage on screen
+
+## Contributing
+
+Issues and PRs welcome - run `pytest` locally before submitting.
