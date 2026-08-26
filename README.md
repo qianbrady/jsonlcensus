@@ -1,5 +1,6 @@
 # jsonlcensus — JSONL 字段普查器
 
+[![CI](https://github.com/qianbrady/jsonlcensus/actions/workflows/ci.yml/badge.svg)](https://github.com/qianbrady/jsonlcensus/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 **Streaming JSONL schema census: field occurrence, type mix, null rate,
 nesting depth and drift — one command to a Markdown report.**
 纯标准库，内存恒定，支持 GB 级文件。
