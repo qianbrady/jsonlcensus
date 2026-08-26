@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonlcensus"
+version = "0.1.0"
+description = "Full-schema census of a JSONL stream: field occurrence, type mix, nulls, nesting depth, and drift - one command to a Markdown report."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "ox-alpha" }]
+keywords = ["jsonl", "schema", "census", "drift", "data-quality", "markdown"]
+
+[project.scripts]
+jsonlcensus = "jsonlcensus.cli:main"
+
+[tool.setuptools]
+packages = ["jsonlcensus"]
